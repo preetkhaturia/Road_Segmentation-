@@ -12,14 +12,30 @@ These instructions will get you a copy of the project up and running on your loc
 A enviornment.yml file has been added with the repository in order to reproduce the pacakge selection. 
 
 ## Files and Directories
+Main.py : Training file, train your model by tweaking the batch_size, epochs and learning rates. Data augmentation can also improve the accuracy of the data. 
+helper.py , project_tests.py : Utility files for Main program.
+data_creation.py : Creating labeled images from IDD dataset.
+video_implement.py : test your implementation on any video.
+saver : contains trained model.
+
 
 ## Usage 
+### Training : Run Main.py 
+'''
+python main.py
+'''
+(tweak with different batch size, epochs, training data, learning rate)
+### Prediction : Run video_implement.py
+'''
+clip1 = VideoFileClip(path+'/VID_test.mp4').subclip(3,15)
+'''
 ### Dataset Creation
+
 
 ![alt text](https://github.com/preetkhaturia/Road_Segmentation-/blob/master/Images/dataset.png "Logo Title Text 1")
 
 Label images should be binary images with 1 for road region and 0 for no road region.
-To create the dataset, run data_creation.py file.
+To create the dataset, run data_creation.py file. Add your data in data folder.
 
 
 
