@@ -29,7 +29,7 @@ saver : contains trained model.
 python main.py
 ```
 (tweak with different batch size, epochs, training data, learning rate)
-### Prediction : Run video_implement.py
+##### Prediction : Run video_implement.py
 ```
 clip1 = VideoFileClip(Your video path)
 ```
