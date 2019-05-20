@@ -13,9 +13,13 @@ A enviornment.yml file has been added with the repository in order to reproduce 
 
 ## Files and Directories 
 Main.py :Training file, train your model by tweaking the batch_size, epochs and learning rates. Data augmentation can also improve the accuracy of the data. 
+
 helper.py , project_tests.py : Utility files for Main program.
+
 data_creation.py : Creating labeled images from IDD dataset.
+
 video_implement.py : test your implementation on any video.
+
 saver : contains trained model.
 
 
